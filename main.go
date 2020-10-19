@@ -131,11 +131,10 @@ func insertdocs(w http.ResponseWriter, r *http.Request) {
 			defer client.Disconnect(ctx)
 
 			fmt.Println(email)
-			fmt.Println(r)
 			collection := client.Database("appointy_task").Collection("test")
-
 			cursor, err := collection.Find(ctx, bson.M{
-				"start_time": bson.M{"$gt": start}, "end_time": bson.M{"$lt": end},
+				"start_time": bson.M{"$gt": start},
+				"end_time":   bson.M{"$lt": end},
 			})
 			if err != nil {
 				log.Fatal(err)
