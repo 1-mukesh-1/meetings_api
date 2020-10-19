@@ -1,6 +1,8 @@
 # meetings_api
+main.go is the only file which handles the requests and returns the response.
+Database name: appointy_task , Collection Name: test
 
-sample requests:-
+## sample requests:-
 
 1. Create new meeting :
 http://127.0.0.1:10000/meetings 
@@ -24,3 +26,5 @@ http://127.0.0.1:10000/meetings?participant=<email>
 http://127.0.0.1:10000/meetings?participant=chmukesh1612@gmail.com
   - this url displays all the meetings in which <email> is present
   - (Get request)
+
+# Sample Screenshots:
