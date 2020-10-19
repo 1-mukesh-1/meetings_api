@@ -6,7 +6,7 @@ Create new meeting :
 http://127.0.0.1:10000/meetings 
   - (post request) 
   - (post data should contain json in this format)
-  ![alt text](img/meetings.png)
+  ![alt text](https://github.com/1-mukesh-1/meetings_api/blob/main/img/meetings.PNG)
   
   type Meeting struct {
     Id           string
