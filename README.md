@@ -1,6 +1,7 @@
 # meetings_api
-main.go is the only file which handles the requests and returns the response.
-Database name: appointy_task , Collection Name: test
+- main.go is the only file which handles the requests and returns the response.
+- Database name: appointy_task , Collection Name: test
+- Run the file in localhost @ port 10000
 
 ## sample requests:-
 
